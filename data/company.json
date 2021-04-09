@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Toni",
+        "description": "António José da Conceição Oliveira (born 14 October 1946), known as Toni, is a Portuguese former footballer who played as a midfielder, and a coach. A Portugal international on more than 30 occasions, his career was mainly associated with Benfica as both a player and a manager. He won 22 major honours with his main club both spells combined, and also worked in the later capacity in six other countries.",
+        "image_source": "https://media.slbenfica.pt/-/media/benficadp/images/departamento-de-comunicacao/epoca_2017_2018/clube/glorias-slb/toni_arquivo_new.jpg",
+        "url": "toni"
+    },
+    {
+        "name": "Vitor Paneira",
+        "description": "Vítor Manuel da Costa Araújo (born 16 February 1966), known as Vítor Paneira, is a Portuguese former footballer who played as a right midfielder, and a manager. He excelled in the late 80s and early 90s with Benfica, to where he arrived from the lower leagues, going on to amass Primeira Liga totals of 335 games and 43 goals over 11 seasons (289/44 in official matches with his main club) – he also appeared for Vitória de Guimarães in the competition.",
+        "image_source": "https://i.pinimg.com/originals/81/99/19/819919a4a231ac01f00dd7212ef4899a.jpg",
+        "url": "vitor-paneira"
+    },
+    {
+        "name": "Joao Vieira Pinto",
+        "description": "Blessed with playmaking and goalscoring ability, he made his name mostly at a domestic level and as a key figure in the Portuguese national team's 'Golden Generation', collecting 152 caps and scoring 47 goals all categories comprised (81/23 for the senior team alone) and representing the country in one World Cup and two European Championships.",
+        "image_source": "https://media.slbenfica.pt/-/media/benficadp/images/departamento-de-comunicacao/epoca_2017_2018/futebol/equipa_a/efemerides/sporting-benfica-3-6/joao-vieira-pinto-benfica-sporting-thumbnail.jpg",
+        "url": "joao-vieira-pinto"
+    },
+    {
+        "name": "Stefan Schwarz",
+        "description": "Hans-Jürgen Stefan Schwarz (born 18 April 1969) is a Swedish former professional footballer who played as a midfielder. Schwarz started off his career with Malmö FF in 1987 before moving on to represent Benfica, Arsenal, Fiorentina, and Valencia until he retired at Sunderland in 2003. Schwarz won 69 caps for the Sweden national team, scoring 6 goals. He represented his country at the 1990 FIFA World Cup, UEFA Euro 1992, and most notably the 1994 FIFA World Cup where Sweden finished third.",
+        "image_source": "https://i.pinimg.com/originals/80/8d/8c/808d8c124d07e17871a9567240c881d0.jpg",
+        "url": "stefan-schwartz"
+    },
+    {
+        "name": "Carlos Mozer",
+        "description": "José Carlos Nepomuceno Mozer (born 19 September 1960) is a Brazilian former professional footballer who played as a central defender, and is a manager. In his career, he was mainly associated with Benfica in Portugal, which he represented in two separate spells. He also spent three years with French club Marseille. Mozer appeared for Brazil at the 1990 World Cup.",
+        "image_source": "http://www.playmakerstats.com/img/jogadores/66/29566_med_mozer.jpg",
+        "url": "carlos-mozer"
+    }
+]

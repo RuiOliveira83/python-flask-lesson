@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+<h2>{{ page_title }}</h2>
+  <p>
+    The 1993–94 season was Sport Lisboa e Benfica's 90th season in existence and
+    the club's 60th consecutive season in the top flight of Portuguese football.
+    It involved Benfica competing in the Primeira Divisão and the Taça de
+    Portugal. Benfica qualified for the European Cup Winners' Cup by winning
+    previous Portuguese Cup.[1] It covers the period between 1 July 1993 to 30
+    June 1994. The season was marked by the events in his pre-season, as the club
+    only made three signings. More importantly, however, the club lost regular
+    starter Paulo Sousa and common substitute António Pacheco to Sporting CP due
+    to unpaid salaries. Expectations around Benfica were not high, as Sporting and
+    Porto were deemed the main contenders. After a poor start, however, a six-game
+    winning streak granted them the top position in the league table. After going
+    15 league games unbeaten, a loss in April at Salgueiros and a draw at home
+    against Estrela da Amadora made it necessary to win at the Estádio José
+    Alvalade to retain their first-place position; a hat-trick from João Pinto in
+    a 6–3 win put the title only six points away. On 25 May, a win over Gil
+    Vicente ended the title race, with the club winning a record 30th league
+    title.
+  </p>
+
+  {% for member in company %}
+
+  
+
+    <div class="row featurette">
+
+      {% if loop.index % 2 != 0 %}
+        <div class="col-md-7">
+          <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+          <p>
+            {{ member.description }}
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="{{ member.image_source }}" alt="{{ member.name }}" class="featurette-image image-responsive"/>
+        </div>
+      {% else %}
+        <div class="col-md-5">
+          <img src="{{ member.image_source }}" alt="{{ member.name }}" class="featurette-image image-responsive"/>
+        </div>
+        <div class="col-md-7">
+          <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+          <p>
+            {{ member.description }}
+          </p>
+        </div>
+
+      {% endif %}
+    </div>
+
+    {% if loop.index != loop.length %}
+
+      <hr class="featurette-divider">
+
+    {% endif%}
+
+  {% endfor %}
+
+{% endblock %}
